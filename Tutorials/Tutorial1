@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Kedar</h1>
+    <h2>Kedar</h2>
+    <h3>Kedar</h3>
+    <h4>Kedar</h4>
+    <h5>Kedar</h5>
+    <h6>Kedar</h6>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur veritatis sint molestias repellendus pariatur laudantium libero adipisci, architecto recusandae provident.</p>
+    <hr>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nulla accusamus quod atque, velit, voluptate amet quibusdam suscipit nam asperiores vel numquam voluptatem? Dicta nemo exercitationem laboriosam et, iure quae corrupti eaque atque qui repellendus ex ducimus fugit, ipsa doloribus?</P>
+</body>
+</html>
