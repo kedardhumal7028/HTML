@@ -1,0 +1,202 @@
+* {
+    background-color: black;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+.navbar {
+    display: flex;
+    background-color: #424242;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+    overflow: auto;
+}
+
+.navbar h1 {
+    margin-left: 20px;
+    background-color: #424242;
+    color: orange;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+.btn-primary:hover {
+    color: white;
+}
+
+.menu-items a {
+    float: left;
+    padding: 8px;
+    color: orange;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: #424242;
+    text-decoration: none;
+    font-weight: 600;
+
+
+}
+
+.menu-items {
+    padding: inherit;
+
+}
+
+ul {
+
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-left: 55%;
+    background-color: #424242;
+
+
+}
+
+.btn-primary {
+    width: 6em;
+    border-radius: 20px;
+    margin-left: 20px;
+    color: orange;
+    font-size: 20px;
+    background-color: #424242;
+    box-shadow: none;
+    font-weight: 600;
+    border-color: orangered;
+    border-width: 3px;
+
+
+}
+
+.container-container1 {
+    padding-left: 100px;
+    margin-top: 10px;
+    font-size: xx-large;
+    position: relative;
+
+}
+
+img {
+    height: 650px;
+    width: 650px;
+    float: right;
+    
+}
+
+.container-container1 .items {
+    padding-top: 130px;
+}
+
+.container-container1 .clrs {
+    color: orange;
+}
+
+.hr-hr {
+    border-style: solid;
+    border-color: orangered;
+
+}
+
+
+
+.hr-hr1 {
+    margin-top: 124.8px;
+    border-color: orangered;
+
+}
+
+.container-container2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+
+.about-me h1 {
+    padding-left: 15%;
+    margin-top: 0px;
+    color: orange;
+
+}
+
+.about-me p {
+    margin-top: 20px;
+    margin-left: 200px;
+    float: right;
+    font-size: larger;
+
+}
+
+.img2 {
+    margin-top: 20px;
+    height: 600px;
+    width: 600px;
+    float: left;
+}
+
+.hr-hr2 {
+    margin-top: 51px;
+    border-color: orangered;
+}
+
+.grid {
+    margin-left: 9%;
+    text-align: center;
+}
+
+.grid h1 {
+    text-align: center;
+    margin-top: 80px;
+    color: orange;
+}
+
+div.gallery {
+    margin: 30px;
+    margin-top: 60px;
+    border: 1px solid orange;
+    float: left;
+    width: 180px;
+    box-shadow: 0 0 10px orange,
+    0 1px 0 orange,
+    1px 0 0 orange;
+    border-radius: 0px;
+}
+
+div.gallery:hover {
+    border: 1px solid red;
+    box-shadow: 0 0 50px orangered,
+    0 1px 0 orangered,
+    1px 0 0 orangered;
+    border-radius: 0px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+
+    text-align: center;
+}
+
+.hr-hr3
+{
+    margin-top: 700px;
+    border-color: orangered;
+}
+
