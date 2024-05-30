@@ -92,7 +92,7 @@ img {
     height: 650px;
     width: 650px;
     float: right;
-    
+
 }
 
 .container-container1 .items {
@@ -152,6 +152,12 @@ img {
     border-color: orangered;
 }
 
+.header2 h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: orange;
+}
+
 .grid {
     margin-left: 9%;
     text-align: center;
@@ -170,16 +176,16 @@ div.gallery {
     float: left;
     width: 180px;
     box-shadow: 0 0 10px orange,
-    0 1px 0 orange,
-    1px 0 0 orange;
+        0 1px 0 orange,
+        1px 0 0 orange;
     border-radius: 0px;
 }
 
 div.gallery:hover {
     border: 1px solid red;
     box-shadow: 0 0 50px orangered,
-    0 1px 0 orangered,
-    1px 0 0 orangered;
+        0 1px 0 orangered,
+        1px 0 0 orangered;
     border-radius: 0px;
 }
 
@@ -194,9 +200,291 @@ div.desc {
     text-align: center;
 }
 
-.hr-hr3
-{
+.hr-hr3 {
     margin-top: 700px;
     border-color: orangered;
 }
 
+.container3 {
+    display: flex;
+    margin-top: 0px;
+}
+
+.container3 h1 {
+    color: orangered;
+}
+
+.header3 h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: orange;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    margin-left: 85px;
+    margin-top: 100px;
+    perspective: 1000px;
+    display: flex;
+    align-items: center;
+
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+
+}
+
+.flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+    border: 1px solid orangered;
+    border-color: white;
+
+}
+
+.flip-card-back li {
+    text-align: left;
+    margin-left: 10px;
+    text-indent: 10px;
+
+}
+
+.flip-card-back:hover {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+    border: 1px solid orangered;
+    box-shadow: 0 0 50px white,
+        0 1px 0 0 orange,
+        1px 0 0 0 orange,
+        0 0 1px 0 orange,
+        0 0 0 1px orange;
+
+}
+
+
+
+.WebServices p {
+
+    margin-left: 100px;
+    float: right;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+
+}
+
+.Web-img2 img {
+
+    float: right;
+}
+
+.hr-hr4 {
+    margin-top: 100px;
+    border-color: orangered;
+}
+
+
+
+
+
+
+
+
+#contact {
+    width: 100%;
+    height: 100%;
+}
+
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 50px;
+    padding-left: 250px;
+    position: relative;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+/* Left contact page */
+.form-horizontal {
+    max-width: 490px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+.form-control,
+textarea {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 2px solid #444;
+    padding: 20px;
+}
+
+.send-button {
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    /* border: none; */
+    background-color: #000000;
+    /* color: #fff; */
+}
+
+.alt-send-button {
+    width: 100%;
+    height: 100%;
+    transition: all .2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-text {
+    margin-left: 0px;
+    font: 700 13px 'Lato', sans-serif;
+    letter-spacing: 3px;
+}
+
+.alt-send-button:hover {
+    transform: translate3d(50px, -40px, 0px);
+    /* background-color: #555; */
+}
+
+
+
+
+/* Location, Phone, Email Section */
+
+
+.direct-contact-container {
+    list-style: none;
+    font-size: x-small;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: white;
+    text-transform: none; 
+}
+
+.contact-text.place,
+.contact-text.phone,
+.contact-text.gmail {
+    font: 200 20px 'Oswald', sans-serif;
+}
+
+.contact-text.gmail a {
+    text-transform: lowercase; 
+}
+
+.social-media-list {
+    position: relative;
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+}
+
+.social-media-list li a {
+    color: #fff;
+}
+
+.social-media-list li {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 65px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:hover {
+    background-color: black;
+}
+
+.social-media-list li:hover:after {
+    opacity: 1;
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+    background-color: black;
+}
+
+.copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: gray;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+hr {
+    border-color: orangered;
+}
+
+
+  
