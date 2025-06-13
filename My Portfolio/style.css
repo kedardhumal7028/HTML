@@ -59,7 +59,7 @@ ul {
     list-style: none;
     display: flex;
     float: right;
-    margin-left: 55%;
+    margin-left: 50%;
     background-color: #424242;
 
 
@@ -88,15 +88,16 @@ ul {
 
 }
 
-img {
-    height: 650px;
-    width: 650px;
+ img {
+    height: 651px;
+    width: auto;
     float: right;
 
-}
+} 
 
 .container-container1 .items {
     padding-top: 130px;
+    font: 200 32px 'Oswald', sans-serif;
 }
 
 .container-container1 .clrs {
@@ -106,6 +107,8 @@ img {
 .hr-hr {
     border-style: solid;
     border-color: orangered;
+    width: 700px;
+    float: left;
 
 }
 
@@ -120,23 +123,25 @@ img {
 .container-container2 {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center; 
 }
 
 
 
 .about-me h1 {
-    padding-left: 15%;
-    margin-top: 0px;
+    text-align: center;
+    margin-top: 50px;
     color: orange;
+    padding-left: 340px;
 
 }
 
 .about-me p {
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 100px;
     float: right;
-    font-size: larger;
+    font: 200 20px 'Oswald', sans-serif;
+    line-height: 35px;
 
 }
 
@@ -159,7 +164,7 @@ img {
 }
 
 .grid {
-    margin-left: 9%;
+    margin-left: 5%;
     text-align: center;
 }
 
@@ -222,10 +227,10 @@ div.desc {
 
 .flip-card {
     background-color: transparent;
-    width: 400px;
+    width: 100%;
     height: 250px;
-    margin-left: 85px;
-    margin-top: 100px;
+    margin-left: 0px;
+    margin-top: 5%;
     perspective: 1000px;
     display: flex;
     align-items: center;
@@ -279,10 +284,10 @@ div.desc {
 
 .flip-card-back:hover {
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     transform: rotateY(180deg);
     border: 1px solid orangered;
-    box-shadow: 0 0 50px white,
+    box-shadow: 0 0 50px rgb(255, 255, 255),
         0 1px 0 0 orange,
         1px 0 0 0 orange,
         0 0 1px 0 orange,
@@ -296,15 +301,17 @@ div.desc {
 
     margin-left: 100px;
     float: right;
-    font-size: x-large;
+    font: 200 24px 'Oswald', sans-serif;
     color: white;
     text-align: center;
+    line-height: 45px;
 
 }
 
 .Web-img2 img {
 
-    float: right;
+    height: 50%;
+    width: 100%;
 }
 
 .hr-hr4 {
@@ -342,13 +349,13 @@ div.desc {
     padding: 50px;
     padding-left: 250px;
     position: relative;
-    max-width: 1000px;
+    max-width: 100%;
     flex-wrap: wrap;
 }
 
 /* Left contact page */
 .form-horizontal {
-    max-width: 490px;
+    max-width: 50%;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     width: 100%;
@@ -480,6 +487,7 @@ textarea {
     color: gray;
     letter-spacing: 1px;
     text-align: center;
+    padding-top: 50px;
 }
 
 hr {

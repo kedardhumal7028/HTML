@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in html</title>
+
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    thead {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        border: 2px solid black;
+    }
+
+   
+    tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    th {
+        font-weight: bold;
+    }
+</style>
+
+</head>
+
+<body>
+    <h1>Tables in Html</h1>
+
+    <table>
+        <!-- head of the table -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Sallary</th>
+            </tr>
+        </thead>
+        <!-- body of the table  -->
+        <tbody>
+            <tr>
+                <td>Kedar</td>
+                <td>Software developer</td>
+                <td>$7000</td>
+            </tr>
+            <tr>
+                <td>Shubham</td>
+                <td>Web developer</td>
+                <td>$5000</td>
+            </tr>
+            <tr>
+                <td>Suraj</td>
+                <td>Software Tester</td>
+                <td>$8000</td>
+            </tr>
+            <tr>
+                <td>Pranit</td>
+                <td>Database developer</td>
+                <td>$15000</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td colspan="1">$35000</td>
+            </tr>
+        </tbody> 
+    </table>
+</body>
+
+</html>
